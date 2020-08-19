@@ -1,0 +1,25 @@
+{
+    "name": "kafka-js-course",
+    "version": "1.0.0",
+    "description": "Kafka consumer and producer scripts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "consume": "node consume.js",
+        "produce": "node produce.js"
+    },
+    "author": "Diego Ferreira - katesclau@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "kafkajs": "^1.12.0",
+        "uuid": "^8.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/katesclau/kafka-js-course.git"
+    },
+    "engines": {
+        "node": ">=12"
+    },
+    "type": "module"
+}
